@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="CommunityDao">
+ 	
+ 	<select id="selectAll" resultType="CommunityVO">
+ 		SELECT ID
+ 				, TITLE
+ 				, BODY
+ 		FROM	COMMUNITY
+ 		ORDER	BY ID DESC 
+ 	</select>
+ 	
+ 	<insert id="insertCommunity" parameterType="CommunityVO">
+ 		INSERT	INTO COMMUNITY(
+ 			ID
+ 			, TITLE
+ 			, BODY
+ 		)
+ 		VALUES (
+ 			STOCK_ID_SEQ.NEXTVAL
+ 			, #{title}
+ 			, #{body}
+ 		)
+ 		
+ 		
+ 	</insert>
+ 	
+ </mapper>
