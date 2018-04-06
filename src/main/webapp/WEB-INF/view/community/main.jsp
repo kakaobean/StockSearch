@@ -31,10 +31,10 @@
 					<img src="<c:url value="/static/img/4.PNG"/>" style="width: 900px; height: 300px;"/>
 				</div>
 				<div class="item">
-					<img src="<c:url value="/WEB-INF/static/img/4.PNG"/>" style="width: 900px; height: 300px;"/>
+					<img src="<c:url value="/static/img/4.PNG"/>" style="width: 900px; height: 300px;"/>
 				</div>
 				<div class="item">
-					<img src="<c:url value="/WEB-INF/static/img/4.PNG"/>" style="width: 900px; height: 300px;"/>
+					<img src="<c:url value="/static/img/4.PNG"/>" style="width: 900px; height: 300px;"/>
 				</div>
 
 			</div> 

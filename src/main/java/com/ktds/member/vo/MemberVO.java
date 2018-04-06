@@ -1,5 +1,7 @@
 package com.ktds.member.vo;
 
+import javax.validation.constraints.NotEmpty;
+
 public class MemberVO {
 	private String userId;
 	private String userPassword;

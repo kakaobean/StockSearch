@@ -69,7 +69,7 @@ public class CommunityController {
 		if (isSuccess) {
 			return new ModelAndView("redirect:/list");
 		}
-
+		
 		return new ModelAndView("redirect:/write");
 	}
 	@RequestMapping("/view/{id}")

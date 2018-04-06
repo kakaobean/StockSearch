@@ -9,7 +9,6 @@
 	</bean>
 		
 	
-	
 
 	<bean id="communityService" class="com.ktds.community.service.CommunityServiceImpl">
 			<property name="communityDao" ref="communityDaoOracle"></property>
